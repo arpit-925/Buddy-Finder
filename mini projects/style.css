@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+     overflow: scroll; 
 }
 
 
@@ -18,8 +20,9 @@ nav {
     padding: 20px;
     background-color: #333;
     color: #fff;
-    height: 60px;
+    height: 1rem;
     width: 100%;
+    position: fixed;
 }
 
 nav .logo h1 {
@@ -30,7 +33,7 @@ nav .logo h1 {
  display: flex;
  justify-content: space-between;
  align-items: center;
- height: 40px;
+ height: 1rem;
 
 
 }
@@ -54,11 +57,12 @@ nav ul li a {
 #login{
     text-align: center;
     color: aqua;
+    
 }
 
 .hero {
     background: url('https://wallpaperaccess.com/full/2538198.jpg') no-repeat center center/cover;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +133,7 @@ nav ul li a {
     font-size: 1rem;
 }
 
-/* Contact Section */
+
 .contact {
     padding: 60px 20px;
     background-color: #f4f4f4;
